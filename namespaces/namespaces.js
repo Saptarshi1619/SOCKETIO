@@ -1,7 +1,6 @@
-import express  from 'express';
+const express = require('express');
 const app = express();
-// require('socket.io') = Server in the docs
-import socketio from 'socket.io';
+const socketio = require('socket.io');
 
 app.use(express.static(__dirname + '/public'));
 
